@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-generate-template {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    border-top: 1px solid #ccc;
+    resize: vertical;
+    overflow: auto;
+    padding-top: 16px;
+    height: 400px;
+}
+
+.submit {
+    background-color: hsl(110, 50%, 50%);
+    color: white;
+    padding: 8px 18px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    transition: all .3s ease;
+    background-color: hsl(110, 50%, 40%);
+
+}
+
+.query {
+    font-size: 18px;
+    width: 80%;
+    height: 100%;
+    padding: 4px 8px;
+    resize: none;
+    border-radius: 8px;
+}
